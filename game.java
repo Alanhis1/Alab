@@ -1,4 +1,4 @@
-import java.util.Scanner; // импортируем класс
+import java.util.Scanner; // ГЁГ¬ГЇГ®Г°ГІГЁГ°ГіГҐГ¬ ГЄГ«Г Г±Г±
 public class game {
 	
 
@@ -6,36 +6,36 @@ public class game {
     public static void main(String[] args) {
 		int a = (int)(Math.random()*100) ; 
 	int b = (int)(Math.random()*11) ; 
-	Scanner aa = new Scanner(System.in); // создаём объект класса Scanner
+	Scanner aa = new Scanner(System.in); // Г±Г®Г§Г¤Г ВёГ¬ Г®ГЎГєГҐГЄГІ ГЄГ«Г Г±Г±Г  Scanner
 	System.out.println("Vedite a") ;
 	  String name = aa.nextLine();
 
-Scanner ba = new Scanner(System.in); // создаём объект класса Scanner
+Scanner ba = new Scanner(System.in); // Г±Г®Г§Г¤Г ВёГ¬ Г®ГЎГєГҐГЄГІ ГЄГ«Г Г±Г±Г  Scanner
 	System.out.println("Vedite b") ;
 	  String rasa = ba.nextLine();
 
-Scanner ca = new Scanner(System.in); // создаём объект класса Scanner
+Scanner ca = new Scanner(System.in); // Г±Г®Г§Г¤Г ВёГ¬ Г®ГЎГєГҐГЄГІ ГЄГ«Г Г±Г±Г  Scanner
 	System.out.println("Vedite c") ;
 	  String stolica = ca.nextLine();
-	  System.out.println("Ваша сила = "+ b);
+	  System.out.println("Г‚Г ГёГ  Г±ГЁГ«Г  = "+ b); //I Hack you gode =))))
 	
 	  
 
-	System.out.println("Наш Герой под именем " + name + " Который являлся "+ rasa + " Отправился в "+ stolica );
-	System.out.println("Но вы замечаете  монстра ");
-	System.out.println("У него 10 хп ");
+	System.out.println("ГЌГ Гё ГѓГҐГ°Г®Г© ГЇГ®Г¤ ГЁГ¬ГҐГ­ГҐГ¬ " + name + " ГЉГ®ГІГ®Г°Г»Г© ГїГўГ«ГїГ«Г±Гї "+ rasa + " ГЋГІГЇГ°Г ГўГЁГ«Г±Гї Гў "+ stolica );
+	System.out.println("ГЌГ® ГўГ» Г§Г Г¬ГҐГ·Г ГҐГІГҐ  Г¬Г®Г­Г±ГІГ°Г  ");
+	System.out.println("Г“ Г­ГҐГЈГ® 10 ГµГЇ ");
     if (a > 50){
-		System.out.println("Вы отнимаете "+ b + " хп");
+		System.out.println("Г‚Г» Г®ГІГ­ГЁГ¬Г ГҐГІГҐ "+ b + " ГµГЇ");
 	if(b > 5){
-		System.out.println("Вы спугнули его");
+		System.out.println("Г‚Г» Г±ГЇГіГЈГ­ГіГ«ГЁ ГҐГЈГ®");
 	}
 	else{
-		System.out.println("Вы продолжаете атаковать");
+		System.out.println("Г‚Г» ГЇГ°Г®Г¤Г®Г«Г¦Г ГҐГІГҐ Г ГІГ ГЄГ®ГўГ ГІГј");
 	}
 	}
     else
 	{
-		System.out.println("Вы промазываете  ");
+		System.out.println("Г‚Г» ГЇГ°Г®Г¬Г Г§Г»ГўГ ГҐГІГҐ  ");
 	}
   
     } 	
