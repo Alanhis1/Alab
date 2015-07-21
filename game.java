@@ -18,6 +18,7 @@ Scanner ca = new Scanner(System.in); // ñîçäà¸ì îáúåêò êëàññà
 	System.out.println("Vedite c") ;
 	  String stolica = ca.nextLine();
 	  System.out.println("Âàøà ñèëà = "+ b); //I Hack you gode =))))
+	  /////hjhuhuhuhu
 	
 	  
 
